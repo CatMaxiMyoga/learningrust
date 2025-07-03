@@ -10,7 +10,7 @@
 
 ---
 
-# Guessing Game + Binary Guesser Helper
+# 1. Guessing Game + Binary Guesser Helper
 
 ## Guessing Game
 - Generates a random number between 0 and 1000 (exclusive)
@@ -43,3 +43,8 @@ Exit using CTRL+C
 cargo run --release --bin binguesshelp
 ```
 Exit using CTRL+C
+
+## Past Projects
+- [Guessing Game + Binary Guesser Helper][commit1]
+
+[commit1]: https://github.com/CatMaxiMyoga/learningrust/tree/9b9b7bc
