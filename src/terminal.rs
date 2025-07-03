@@ -27,7 +27,7 @@ impl Terminal {
     }
   }
 
-  pub fn clear_sceen(&self) -> Result<()> {
+  pub fn clear_screen(&self) -> Result<()> {
     self.execute_ansi("\x1B[2J")
   }
 
@@ -162,7 +162,7 @@ impl Terminal {
   }
   
   pub fn reset(&self) -> Result <()> {
-    self.clear_sceen()?;
+    self.clear_screen()?;
     self.home()
   }
   
